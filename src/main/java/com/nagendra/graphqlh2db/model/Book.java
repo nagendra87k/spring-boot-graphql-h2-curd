@@ -1,13 +1,7 @@
 package com.nagendra.graphqlh2db.model;
 
-
-
-import org.jetbrains.annotations.NotNull;
-
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.Date;
-import java.util.Objects;
 
 @Entity
 public class Book implements Serializable{
